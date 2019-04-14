@@ -130,3 +130,15 @@ It's also alowed to retrieve transfer state:
 curl -X GET \
   http://localhost:8090/transfers/433e4147-e19b-23d3-d455-253222448010
 ```
+
+Response:
+
+```
+{
+    "transfer_id": "433e4147-e19b-23d3-d455-253222448010",
+    "source_account_id": "132e4367-e89b-13d5-a456-556d42440000",
+    "target_account_id": "232e4367-e89b-13d5-a456-556d42440000",
+    "amount": 30,
+    "status": "completed"
+}
+```
